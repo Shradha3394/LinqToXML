@@ -1,0 +1,11 @@
+<People>
+	<Person id="1" dob="12/20/2017">
+		<Name firstname="Ram" lastname="Singh" middlename="Sharma"> </Name>
+		<Address country="India" city="Noida" state="UP" zipcode="201010" addressLine1="xyz" addressLine2="xyz"> </Address>
+	</Person>
+	
+	<Person id="2" dob="10/20/2017">
+		<Name firstname="Shyam" lastname="Singh" middlename="Verma"> </Name>
+		<Address country="India" city="Delhi" state="Delhi" zipcode="110110" addressLine1="abc" addressLine2="abc"> </Address>
+	</Person>
+</People>
