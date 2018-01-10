@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Linq;
 
 namespace LinqToXML
@@ -14,6 +12,7 @@ namespace LinqToXML
         {
             XDocument doc = XDocument.Parse(System.IO.File.ReadAllText("../../App_Data/people.xml"));
 
+            /// Parsing different nodes to one object
             List<Person> person = doc.Descendants("Person").Select(item => {
                 var nameNode = item.Descendants("Name");
                 var addressNode = item.Descendants("Address");
@@ -33,8 +32,7 @@ namespace LinqToXML
                 };
             }).ToList();
 
-
-
+            /// Parsing to object as per XML nodes
             List<People> people = doc.Descendants("Person").Select(item1 => new People()
             {
                 Id = (int)item1.Attribute("id"),

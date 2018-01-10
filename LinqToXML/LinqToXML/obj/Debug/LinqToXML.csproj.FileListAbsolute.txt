@@ -4,3 +4,6 @@ D:\Shradha\Projects\LinqToXML\LinqToXML\bin\Debug\LinqToXML.pdb
 D:\Shradha\Projects\LinqToXML\LinqToXML\obj\Debug\LinqToXML.csprojResolveAssemblyReference.cache
 D:\Shradha\Projects\LinqToXML\LinqToXML\obj\Debug\LinqToXML.exe
 D:\Shradha\Projects\LinqToXML\LinqToXML\obj\Debug\LinqToXML.pdb
+D:\Shradha\Projects\LinqToXMLApp\LinqToXML\LinqToXML\bin\Debug\LinqToXML.exe.config
+D:\Shradha\Projects\LinqToXMLApp\LinqToXML\LinqToXML\obj\Debug\LinqToXML.exe
+D:\Shradha\Projects\LinqToXMLApp\LinqToXML\LinqToXML\obj\Debug\LinqToXML.pdb
